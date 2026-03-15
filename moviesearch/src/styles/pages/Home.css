@@ -1,0 +1,34 @@
+.home {
+  padding: 20px 0;
+}
+.home h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+.home h2 {
+  font-size: 1.8rem;
+  color: #555;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+.home .status {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+.home .status.loading {
+  background-color: #e6f7ff;
+  color: #00fbff;
+  border: 1px solid #91b5ff;
+}
+.home .status.error {
+  background: #fff0f6;
+  color: #ff4d4f;
+  border: 1px solid #ffa39e;
+}/*# sourceMappingURL=Home.css.map */
