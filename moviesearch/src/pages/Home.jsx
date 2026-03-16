@@ -1,6 +1,9 @@
 import MovieList from "../components/MovieList";
 import "../styles/pages/Home.scss";
 
+{/* Denne koden definerer strukturen og innholdet på hjemmesiden til nettstedet.
+    Den persenterer tittel og bruker rendring for å vise enten laste-melding,
+    en feilmelding eller selve filmlisten, avhengig av aktuelle tilstanden til dataen. */}
 function Home({ movies, isLoading, error }) {
     return (
         <article className="home">

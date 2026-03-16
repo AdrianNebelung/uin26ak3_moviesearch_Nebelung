@@ -1,6 +1,9 @@
 const API_KEY = "f27b490e";
 const BASE_URL = "https://www.omdbapi.com/";
 
+{/* Disse funksjonene er ansvarlig for å sende søkeforespørsler til OMDB API
+    basert på en gitt searchTerm og returnerer en liste med filmer som matcher søket.
+    Den er bygget for å håndtere både suksessfulle resultater og ulike typer feil. */}
 export async function searchMovies(searchTerm) {
     if (!searchTerm || searchTerm.length < 3) {
         return {

@@ -6,6 +6,10 @@
   flex-direction: column;
   width: 100%;
 }
+.movie-card:hover {
+  box-shadow: 0 8px 25px rgb(0, 0, 0);
+  cursor: pointer;
+}
 .movie-card a {
   text-decoration: none;
   color: inherit;
